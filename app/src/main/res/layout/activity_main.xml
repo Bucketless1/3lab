@@ -242,7 +242,6 @@
                 android:text="0"
                 android:textSize="22sp" />
 
-
             <Button
                 android:id="@+id/dot"
                 android:layout_width="match_parent"
