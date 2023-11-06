@@ -41,31 +41,36 @@
                 android:id="@+id/MC"
                 android:layout_height="match_parent"
                 android:text="MC"
-                android:textSize="22sp" />
+                android:textSize="22sp"
+                android:onClick="onFunctionClick" />
 
             <Button
                 android:id="@+id/MR"
                 android:layout_height="match_parent"
                 android:text="MR"
-                android:textSize="22sp" />
+                android:textSize="22sp"
+                android:onClick="onFunctionClick"/>
 
             <Button
                 android:id="@+id/MS"
                 android:layout_height="match_parent"
                 android:text="MS"
-                android:textSize="22sp" />
+                android:textSize="22sp"
+                android:onClick="onFunctionClick"/>
 
             <Button
                 android:id="@+id/mPlus"
                 android:layout_height="match_parent"
                 android:text="M+"
-                android:textSize="22sp" />
+                android:textSize="22sp"
+                android:onClick="onFunctionClick"/>
 
             <Button
                 android:id="@+id/mMinus"
                 android:layout_height="match_parent"
                 android:text="M-"
-                android:textSize="22sp" />
+                android:textSize="22sp"
+                android:onClick="onFunctionClick"/>
         </TableRow>
 
         <TableRow
@@ -79,7 +84,8 @@
                 android:layout_height="match_parent"
                 android:layout_gravity="left"
                 android:text="⌫"
-                android:textSize="22sp" />
+                android:textSize="22sp"
+                android:onClick="onFunctionClick" />
 
             <Button
                 android:id="@+id/clearEverything"
@@ -87,28 +93,32 @@
                 android:layout_height="match_parent"
                 android:layout_gravity="left"
                 android:text="CE"
-                android:textSize="22sp" />
+                android:textSize="22sp"
+                android:onClick="onFunctionClick"/>
 
             <Button
                 android:id="@+id/C"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:text="C"
-                android:textSize="22sp" />
+                android:textSize="22sp"
+                android:onClick="onClearClick" />
 
             <Button
                 android:id="@+id/posNeg"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:text="+/-"
-                android:textSize="22sp" />
+                android:textSize="22sp"
+                android:onClick="onOperatorClick" />
 
             <Button
                 android:id="@+id/sqrt"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:text="√"
-                android:textSize="22sp" />
+                android:textSize="22sp"
+                android:onClick="onOperatorClick" />
 
 
         </TableRow>
@@ -122,31 +132,36 @@
                 android:id="@+id/n"
                 android:layout_height="match_parent"
                 android:text="7"
-                android:textSize="22sp" />
+                android:textSize="22sp"
+                android:onClick="onNumberClick"  />
 
             <Button
                 android:id="@+id/n2"
                 android:layout_height="match_parent"
                 android:text="8"
-                android:textSize="22sp" />
+                android:textSize="22sp"
+                android:onClick="onNumberClick" />
 
             <Button
                 android:id="@+id/n3"
                 android:layout_height="match_parent"
                 android:text="9"
-                android:textSize="22sp" />
+                android:textSize="22sp"
+                android:onClick="onNumberClick"  />
 
             <Button
                 android:id="@+id/division"
                 android:layout_height="match_parent"
                 android:text="/"
-                android:textSize="22sp" />
+                android:textSize="22sp"
+                android:onClick="onOperatorClick" />
 
             <Button
                 android:id="@+id/percent"
                 android:layout_height="match_parent"
                 android:text="%"
-                android:textSize="22sp" />
+                android:textSize="22sp"
+                android:onClick="onOperatorClick" />
         </TableRow>
 
         <TableRow
@@ -158,31 +173,36 @@
                 android:id="@+id/n4"
                 android:layout_height="match_parent"
                 android:text="4"
-                android:textSize="22sp" />
+                android:textSize="22sp"
+                android:onClick="onNumberClick"  />
 
             <Button
                 android:id="@+id/n5"
                 android:layout_height="match_parent"
                 android:text="5"
-                android:textSize="22sp" />
+                android:textSize="22sp"
+                android:onClick="onNumberClick" />
 
             <Button
                 android:id="@+id/n6"
                 android:layout_height="match_parent"
                 android:text="6"
-                android:textSize="22sp" />
+                android:textSize="22sp"
+                android:onClick="onNumberClick" />
 
             <Button
                 android:id="@+id/multiplication"
                 android:layout_height="match_parent"
                 android:text="*"
-                android:textSize="22sp" />
+                android:textSize="22sp"
+                android:onClick="onOperatorClick" />
 
             <Button
                 android:id="@+id/oneDividedByX"
                 android:layout_height="match_parent"
                 android:text="1/x"
-                android:textSize="22sp" />
+                android:textSize="22sp"
+                android:onClick="onOperatorClick" />
         </TableRow>
 
         <TableRow
@@ -196,35 +216,40 @@
                 android:layout_height="match_parent"
                 android:layout_column="0"
                 android:text="3"
-                android:textSize="22sp" />
+                android:textSize="22sp"
+                android:onClick="onNumberClick" />
 
             <Button
                 android:id="@+id/n8"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="2"
-                android:textSize="22sp" />
+                android:textSize="22sp"
+                android:onClick="onNumberClick" />
 
             <Button
                 android:id="@+id/n9"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="1"
-                android:textSize="22sp" />
+                android:textSize="22sp"
+                android:onClick="onNumberClick" />
 
             <Button
                 android:id="@+id/minus"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="-"
-                android:textSize="22sp" />
+                android:textSize="22sp"
+                android:onClick="onOperatorClick" />
 
             <Button
                 android:id="@+id/equals"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="="
-                android:textSize="22sp" />
+                android:textSize="22sp"
+                android:onClick="onEqualClick"/>
 
 
         </TableRow>
@@ -240,7 +265,8 @@
                 android:layout_height="match_parent"
                 android:layout_span="2"
                 android:text="0"
-                android:textSize="22sp" />
+                android:textSize="22sp"
+                android:onClick="onNumberClick" />
 
             <Button
                 android:id="@+id/dot"
@@ -248,7 +274,8 @@
                 android:layout_height="match_parent"
                 android:layout_span="1"
                 android:text="."
-                android:textSize="22sp" />
+                android:textSize="22sp"
+                android:onClick="onOperatorClick"/>
 
 
             <Button
@@ -256,7 +283,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="+"
-                android:textSize="22sp" />
+                android:textSize="22sp"
+                android:onClick="onOperatorClick" />
 
         </TableRow>
 
